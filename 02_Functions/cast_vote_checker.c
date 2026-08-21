@@ -18,5 +18,8 @@ int main()
         printf("\nYou can't vote!");
     }
 
+    while(getchar() != '\n');
+    getchar();
+
     return 0;
 }
