@@ -60,3 +60,52 @@ arm-none-eabi-size  002SampleApp.elf
    6232	    164	   1900	   8296	   2068	002SampleApp.elf
 Finished building: default.size.stdout
  
+15:42:16 **** Incremental Build of configuration Debug for project 002SampleApp ****
+make -j12 all 
+arm-none-eabi-size  002SampleApp.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6232	    164	   1900	   8296	   2068	002SampleApp.elf
+Finished building: default.size.stdout
+ 
+16:04:29 **** Incremental Build of configuration Debug for project 002SampleApp ****
+make -j12 all 
+arm-none-eabi-size  002SampleApp.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6232	    164	   1900	   8296	   2068	002SampleApp.elf
+Finished building: default.size.stdout
+ 
+16:06:27 **** Incremental Build of configuration Debug for project 002SampleApp ****
+make -j12 all 
+arm-none-eabi-size  002SampleApp.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6232	    164	   1900	   8296	   2068	002SampleApp.elf
+Finished building: default.size.stdout
+ 
+16:10:25 **** Incremental Build of configuration Debug for project 002SampleApp ****
+make -j12 all 
+arm-none-eabi-size  002SampleApp.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6232	    164	   1900	   8296	   2068	002SampleApp.elf
+Finished building: default.size.stdout
+ 
+18:19:31 **** Incremental Build of configuration Debug for project 002SampleApp ****
+make -j12 all 
+arm-none-eabi-size  002SampleApp.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6232	    164	   1900	   8296	   2068	002SampleApp.elf
+Finished building: default.size.stdout
+ 
+18:42:30 **** Incremental Build of configuration Debug for project 002SampleApp ****
+make -j12 all 
+arm-none-eabi-size  002SampleApp.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6232	    164	   1900	   8296	   2068	002SampleApp.elf
+Finished building: default.size.stdout
+ 
+18:43:29 **** Incremental Build of configuration Debug for project 002SampleApp ****
+make -j12 all 
+arm-none-eabi-size  002SampleApp.elf 
+   text	   data	    bss	    dec	    hex	filename
+   6232	    164	   1900	   8296	   2068	002SampleApp.elf
+Finished building: default.size.stdout
+ 
