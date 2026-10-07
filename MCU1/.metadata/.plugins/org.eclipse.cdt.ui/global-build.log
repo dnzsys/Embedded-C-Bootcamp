@@ -15,3 +15,17 @@ Finished building: default.size.stdout
  
 Finished building: 003PeriClockEnable.list
  
+18:36:59 **** Build of configuration Debug for project 003PeriClockEnable ****
+make -j12 all 
+arm-none-eabi-size  003PeriClockEnable.elf 
+   text	   data	    bss	    dec	    hex	filename
+    696	      0	   1568	   2264	    8d8	003PeriClockEnable.elf
+Finished building: default.size.stdout
+ 
+16:06:14 **** Build of configuration Debug for project 003PeriClockEnable ****
+make -j12 all 
+arm-none-eabi-size  003PeriClockEnable.elf 
+   text	   data	    bss	    dec	    hex	filename
+    696	      0	   1568	   2264	    8d8	003PeriClockEnable.elf
+Finished building: default.size.stdout
+ 
