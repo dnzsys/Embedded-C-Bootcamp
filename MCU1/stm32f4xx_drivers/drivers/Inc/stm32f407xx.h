@@ -86,6 +86,40 @@ typedef struct
 } GPIO_RegDef_t;
 
 
+typedef struct
+{
+	__vo uint32_t CR;
+	__vo uint32_t PLLCFGR;
+	__vo uint32_t CFGR;
+	__vo uint32_t CIR;
+	__vo uint32_t AHB1RSTR;
+	__vo uint32_t AHB2RSTR;
+	__vo uint32_t AHB3RSTR;
+	uint32_t RESERVED0;
+	__vo uint32_t APB1RSTR;
+	__vo uint32_t APB2RSTR;
+	uint32_t RESERVED1;
+	__vo uint32_t AHB1ENR;
+	__vo uint32_t AHB2ENR;
+	__vo uint32_t AHB3ENR;
+	uint32_t RESERVED2;
+	__vo uint32_t APB1ENR;
+	__vo uint32_t APB2ENR;
+	uint32_t RESERVED3;
+	__vo uint32_t AHB1LPENR;
+	__vo uint32_t AHB2LPENR;
+	__vo uint32_t AHB3LPENR;
+	__vo uint32_t APB1LPENR;
+	__vo uint32_t APB2LPENR;
+	uint32_t RESERVED4;
+	__vo uint32_t BDCR;
+	__vo uint32_t CSR;
+	uint32_t RESERVED5;
+	__vo uint32_t PLLI2SCFGR;
+	__vo uint32_t PLLSAICFGR;
+	__vo uint32_t DCKCFGR;
+} RCC_RegDef_t;
+
 
 /*
  * peripheral definitions
