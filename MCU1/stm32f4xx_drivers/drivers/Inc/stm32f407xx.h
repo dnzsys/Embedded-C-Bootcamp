@@ -3,6 +3,10 @@
 #ifndef INC_STM32F407XX_H_
 #define INC_STM32F407XX_H_
 
+#include <stdint.h>
+
+#define __vo volatile
+
 /*
  * base addresses of Flash and SRAM memories
  */
@@ -60,5 +64,25 @@
 #define USART6_BASEADDR					(APB2PERIPH_BASEADDR + 0x1400)
 #define EXTI_BASEADDR					(APB2PERIPH_BASEADDR + 0x3C00)
 #define SYSCFG_BASEADDR					(APB2PERIPH_BASEADDR + 0x3800)
+
+
+
+
+
+
+/******************************* peripheral register definition structures *******************************/
+
+typedef struct
+{
+	__vo uint32_t MODER;
+	__vo uint32_t OTYPER;
+	__vo uint32_t OSPEEDR;
+	__vo uint32_t PUPDR;
+	__vo uint32_t IDR;
+	__vo uint32_t ODR;
+	__vo uint32_t BSRR;
+	__vo uint32_t LCKR;
+	__vo uint32_t AFR[2];
+} GPIO_RegDef_t;
 
 #endif /* INC_STM32F407XX_H_ */
