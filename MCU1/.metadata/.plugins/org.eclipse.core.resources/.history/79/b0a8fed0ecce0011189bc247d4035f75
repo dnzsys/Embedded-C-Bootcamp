@@ -1,0 +1,20 @@
+
+
+#ifndef INC_STM32F407XX_GPIO_DRIVER_H_
+#define INC_STM32F407XX_GPIO_DRIVER_H_
+
+
+#include "stm32f407xx.h"
+
+
+/*
+ * Handle Structure for a GPIO pin
+ */
+
+typedef struct
+{
+	GPIO_RegDef_t *pGPIOBaseAddr;
+} GPIO_Handle_t;
+
+
+#endif /* INC_STM32F407XX_GPIO_DRIVER_H_ */
